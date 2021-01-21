@@ -11,20 +11,9 @@
 
 const names = ['Lisa', 'Kaitlin', 'Jan'];
 const event = 'birthday';
-
 function writeCards(names, event) {
 let newPhrase = [];
   for (let i = 0; i < names.length; i++) {
     newPhrase.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
   }
   return newPhrase;
-  }
-
-
-
-
-  // let countDown;
-  // countDown = 11;
-  // while (countDown > 1) {
-  //   console.log(countDown--);
-  // }
